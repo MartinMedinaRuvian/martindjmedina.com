@@ -6,69 +6,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Martin Medina Ruvian</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,500;1,300&display=swap"
         rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
-        
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Krona+One&family=Open+Sans:wght@300;400&family=Roboto:ital,wght@0,500;1,300&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-    <header class="container mt-5">
-        <div class="row">
-            <div class="col-md-6 text-center mt-5">
-                <h1 class="color_primary font_krona">Martin de Jesus <br>Medina Ruvian</h1>
-                <h5 class="color_secondary font_krona">Developer freelance</h5>
-                
-                <div class="container mt-5">
-                    <p class="color_claro font_bold">Hola ✌, soy un joven que tiene la capacidad de resolver problemas con ayuda de la tecnología 🛠💻, me gusta la salsa 🎵🕺 y programar del lado del servidor (backend) 👨‍💻</p>
+    <header class="contenedor">
+        <div class="fila">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+                <h1 class="color-primary font-krona">Martin de Jesus <br>Medina Ruvian</h1>
+                <h2 class="color-secondary font-krona">Developer freelance</h2>
+    
+                <div class="contenedor mt-3">
+                    <p class="color-claro font-bold">Hola ✌, soy un joven que le gusta resolver problemas con
+                        ayuda de la tecnología y le apasiona la misma 🛠💻, me gusta la salsa 🎵🕺 y programar del lado del servidor (backend)
+                        👨‍💻</p>
                 </div>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="img/foto_sin_fondo.png" alt="foto_martin" class="foto_martin">
-                <h5 class="color_primary font_krona">Aprende, práctica y enseña</h5>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="img/foto_sin_fondo.png" alt="foto-martin" class="foto-martin">
+                <h3 class="color-primary font-krona">Aprende, práctica y enseña</h3>
             </div>
         </div>
     </header>
 
-    <footer class="container mt-5">
+    <footer class="contenedor mt-5 fila">
 
-        <div class="row">
-            <div class="col-md-6">
-                <form class="form form-control-sm color_claro font_bold">
-                    <h4 class="text-center color_primary">¿En que te puedo ayudar?</h4>
-                    <div class="form-group">
-                        <label for="name" class="form-label">Nombre <span class="color_primary">*</span></label>
-                        <input type="text" placeholder="Martin Medina" name="name" class="form-control input_con_borde" required>
-                    </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+            <h3 class="color-primary font-krona">¿En que te puedo ayudar?</h3>
+            <form class="form">
 
-                    <div class="form-group mt-2">
-                        <label for="email" class="form-label">Correo electrónico <span
-                                class="color_primary">*</span></label>
-                        <input type="email" placeholder="martinruvian@gmail.com" name="email" class="form-control input_con_borde"
-                            required>
-                    </div>
-                    <div class="form-group mt-2">
-                        <label for="message" class="form-label">Mensaje</label>
-                        <textarea name="message" id="message" cols="20" rows="3" class="form-control input_con_borde"></textarea>
-                    </div>
-                    <div class="form-group text-center mt-3">
-                        <button type="submit" class="btn btn_primary">Enviar mensaje</button>
-                    </div>
-                </form>
-            </div>
+                <div class="mt-2">
+                    <label for="nombre" class="color-claro">Nombre <span class="color-primary">*</span></label>
+                    <input class="input-con-borde" type="text" placeholder="Martin Medina" name="nombre" required>
+                </div>
 
-            <div class="col-md-6">
-               
-            </div>
+                <div class="mt-2">
+                    <label for="email" class="color-claro">Correo electrónico <span class="color-primary">*</span></label>
+                    <input class="input-con-borde" type="text" placeholder="martinruvian@gmail.com" name="email" required>
+                </div>
+
+                <div class="mt-2">
+                    <label for="mensaje" class="color-claro">Mensaje</label>
+                    <textarea class="input-con-borde" name="mensaje" id="" cols="30" rows="3"></textarea>
+                </div>
+
+                <button type="submit" class="btn-primary mt-1 mb-5 font-krona">Enviar mensaje</button>
+            </form>
         </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+       
+        </div>
+
 
         <a href="mailto:martindjmedina@hotmail.com?subject='prueba'" style="opacity: 0;" id="btnsend">mail</a>
     </footer>
