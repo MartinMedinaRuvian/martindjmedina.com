@@ -1,0 +1,38 @@
+body{
+    background-color: #212121;
+    font-family: 'Open Sans', sans-serif;
+}
+.font_krona{
+    font-family: 'Krona One', sans-serif;
+}
+
+.color_primary{
+    color: #E08E79;
+}
+
+.color_secondary{
+    color: #C5E0DC;
+}
+
+.color_claro{
+    color: #ECE5CE;
+}
+
+.btn_primary{
+    color: #fff;
+    background-color: #E08E79;
+}
+
+.foto_martin{
+    max-width: 300px;
+}
+
+.font_bold{
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+    .foto_martin{
+        max-width: 240px;
+    }
+}
