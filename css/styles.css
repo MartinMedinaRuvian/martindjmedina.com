@@ -30,6 +30,10 @@ body{
     background-color: transparent;
 }
 
+.texto-slider{
+  margin-top: 80px;
+}
+
 .font-krona{
     font-family: 'Krona One', sans-serif;
 }
@@ -116,6 +120,9 @@ textarea{
     .titulo-principal{
         margin-top: 0;
      }
+     .texto-slider{
+        margin-top: 0;
+      }
 }
 
 @media (max-width:530px){
