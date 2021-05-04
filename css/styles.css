@@ -107,6 +107,20 @@ textarea{
     margin-top: 45px;
 }
 
+.slider__section h3{
+    font-family: 'Krona One', sans-serif;
+    color: #E08E79;
+    font-size: 30px;
+}
+
+.slider__section h4{
+    font-family: 'Krona One', sans-serif;
+    color: #C5E0DC;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
 .wrapper{
     min-width: 0px;
     display: flex;

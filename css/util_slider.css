@@ -5,7 +5,7 @@
     margin: auto;
     overflow: hidden; 
     position: relative;
-    box-shadow: 0 0 0 2px #ECE5CE; 
+   /* box-shadow: 0 0 0 2px #ECE5CE; */
 }
 
 .slider{
@@ -14,11 +14,6 @@
     height: 500px;
 }
 
-.slider__section h3{
-    font-family: 'Krona One', sans-serif;
-    color: #E08E79;
-    font-size: 30px;
-}
 
 .slider__section{
     width: 100%;
