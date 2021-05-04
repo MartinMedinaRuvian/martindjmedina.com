@@ -17,62 +17,146 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/util_slider.css">
 </head>
 
 <body>
 
-    <header class="contenedor">
+    <header class="contenedor" id="header">
         <div class="fila">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="color-primary font-krona titulo-principal">Martin de Jesus <br>Medina Ruvian</h1>
-                <h2 class="color-secondary font-krona">Developer freelance</h2>
-    
-                <div class="contenedor mt-3">
-                    <p class="color-claro font-bold">Hola ✌, soy un joven que le gusta resolver problemas con
-                        ayuda de la tecnología y le apasiona la misma 🛠💻, me gusta la salsa 🎵🕺 y programar del lado del servidor (backend)
-                        👨‍💻</p>
+                <h2 class="color-secondary font-krona titulo-secundario">Developer freelance</h2>
+
+                <div class="mt-3">
+                    <p class="color-claro font-bold mb-2">Hola ✌, me gusta resolver problemas con
+                        ayuda de la tecnología y me apasiona la misma 🛠💻. Programo del lado del servidor
+                        (backend) 👨‍💻</p>
+                    <a href="#sesion1" class="btn-primary color-primary font-krona">Proyectos destacados</a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <img src="img/foto_sin_fondo.png" alt="foto-martin" class="foto-martin">
-                <h3 class="color-primary font-krona">Aprende, práctica y enseña</h3>
+                <h3 class="color-primary font-krona titulo-foto">Aprende, práctica y enseña</h3>
             </div>
         </div>
     </header>
 
-    <footer class="contenedor mt-5 fila">
+    <section class="contenedor color-claro font-bold mt-5" id="sesion1">
+    
+        <div class="fila">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h2 class="font-krona color-primary mb-2">Proyectos destacados:</h2>
+                <div class="container-slider">
+            
+                    <div class="slider" id="slider">
+        
+                        <div class="slider__section">
+                            <div class="fila">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="color-primary font-krona">YoliFarma</h3>
+                                    <p class="mb-2">Sistema para droguerias o farmacias. <br>Control de inventario, fechas de vencimientos, clientes, etc. El más vendido 🏆</p>
+                                    <a href="" class="btn-primary color-primary font-krona">Información</a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img src="img/slider/1.jpg" alt="" class="slider__img">                                  
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slider__section">
+                            <div class="fila">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="color-primary font-krona">YoliTools</h3>
+                                    <p class="mb-2">Sistema para ferreterias. <br>Control de inventario, empleados, proveedores, etc 🛠</p>
+                                    <a href="" class="btn-primary color-primary font-krona">Información</a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img src="img/slider/2.jpg" alt="" class="slider__img">                                  
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slider__section">
+                            <div class="fila">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="color-primary font-krona">YoliMarket</h3>
+                                    <p class="mb-2">Sistema para supermercados. <br>Facturación POS, manejo y control de productos, clientes, etc 🛒</p>
+                                    <a href="" class="btn-primary color-primary font-krona">Información</a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img src="img/slider/3.jpg" alt="" class="slider__img">                                  
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="slider__section">
+                            <div class="fila">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <h3 class="color-primary font-krona">Consultorio</h3>
+                                    <p class="mb-2">Sistema para manejo de citas. <br>Control de citas, manejo de pacientes, etc 🦷</p>
+                                    <a href="" class="btn-primary color-primary font-krona">Información</a>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img src="img/slider/4.jpg" alt="" class="slider__img">                                  
+                                </div>
+                            </div>
+                        </div>
+        
 
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
-            <h3 class="color-primary font-krona">¿En que te puedo ayudar?</h3>
-            <form class="form">
-
-                <div class="mt-2">
-                    <label for="nombre" class="color-claro">Nombre <span class="color-primary">*</span></label>
-                    <input class="input-con-borde" type="text" placeholder="Martin Medina" name="nombre" required>
+        
+        
+                    </div>
+                    <div class="slider__btn slider__btn--right" id="btn-left">></div>
+                    <div class="slider__btn slider__btn--left" id="btn-right"><</div>
                 </div>
-
-                <div class="mt-2">
-                    <label for="email" class="color-claro">Correo electrónico <span class="color-primary">*</span></label>
-                    <input class="input-con-borde" type="text" placeholder="martinruvian@gmail.com" name="email" required>
+                <a href="#footer" class="btn-primary color-primary font-krona">Contacto</a>
                 </div>
+            </div>
 
-                <div class="mt-2">
-                    <label for="mensaje" class="color-claro">Mensaje</label>
-                    <textarea class="input-con-borde" name="mensaje" id="" cols="30" rows="3"></textarea>
-                </div>
-
-                <button type="submit" class="btn-primary mt-1 mb-5 font-krona">Enviar mensaje</button>
-            </form>
         </div>
+    
+    </section>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
-       
+    <footer class="contenedor mt-5" id="footer">
+
+        <div class="fila">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+                <h3 class="color-primary font-krona">¿En que te puedo ayudar?</h3>
+                <form class="form">
+
+                    <div class="mt-2">
+                        <label for="nombre" class="color-claro">Nombre <span class="color-primary">*</span></label>
+                        <input class="input-con-borde" type="text" placeholder="Martin Medina" name="nombre" required>
+                    </div>
+
+                    <div class="mt-2">
+                        <label for="email" class="color-claro">Correo electrónico <span
+                                class="color-primary">*</span></label>
+                        <input class="input-con-borde" type="text" placeholder="martinruvian@gmail.com" name="email"
+                            required>
+                    </div>
+
+                    <div class="mt-2">
+                        <label for="mensaje" class="color-claro">Mensaje</label>
+                        <textarea class="input-con-borde" name="mensaje" id="" cols="30" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary color-primary mt-1 mb-3 font-krona">Enviar mensaje</button>
+                </form>
+                <a href="#header" class="btn-primary color-primary font-krona">¿Quien soy?</a>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+                
+            </div>
         </div>
-
 
         <a href="mailto:martindjmedina@hotmail.com?subject='prueba'" style="opacity: 0;" id="btnsend">mail</a>
     </footer>
+
     <script src="js/envio_formulario.js"></script>
+    <script src="js/util_slider.js"></script>
 </body>
 
 </html>

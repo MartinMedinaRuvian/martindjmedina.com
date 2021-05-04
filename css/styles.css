@@ -9,9 +9,19 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     background-color: #000;
     font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .input-con-borde{
@@ -33,6 +43,10 @@ body{
     cursor: pointer;
 }
 
+.btn-primary:hover{
+    color: #C5E0DC;
+}
+
 .foto-martin{
     max-width: 300px;
 }
@@ -46,6 +60,10 @@ form{
     margin: auto;
     width: 70%;
     height: auto;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 label{
@@ -79,19 +97,40 @@ textarea{
     margin-top: 45px;
 }
 
+.wrapper{
+    min-width: 0px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.item-wrapper{
+    margin-right: 200px;
+    text-align: center;
+}
+
 @media (max-width: 991px) {
     .titulo-principal{
         margin-top: 0;
      }
 }
 
-@media (max-width: 768px) {
-    .foto-martin{
-        max-width: 250px;
+@media (max-width:530px){
+    .titulo-principal{
+        font-size: 29px;
     }
-}
-
-@media (max-width:768px){
+    .titulo-secundario{
+        font-size: 20px;
+    }
+    .titulo-foto{
+        font-size: 15px;
+    }
+    .foto-martin{
+        max-width: 210px;
+    }
     .contenedor{
         width: 100%;
     }
