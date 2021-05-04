@@ -3,6 +3,16 @@
 @import 'util_titulos_texto.css';
 @import 'util_paleta_colores.css';
 
+@font-face {
+    font-family: 'Krona One';
+    src: url('../fonts/KronaOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open sans';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,6 +36,7 @@ body{
 }
 
 .input-con-borde{
+    font-size: 21px;
     border-radius: 15px;
     border: 2px solid #ECE5CE;
     background-color: transparent;
@@ -53,17 +64,19 @@ body{
     cursor: pointer;
 }
 
+.texto-izquiera{
+    text-align: left;
+}
+
 .btn-primary:hover{
     color: #C5E0DC;
 }
 
 .foto-martin{
+    
     max-width: 300px;
 }
 
-.font-bold{
-    font-weight: 700;
-}
 
 form{
     position: relative;
@@ -77,6 +90,7 @@ html{
 }
 
 label{
+    font-size: 21px;
     margin-left: 5px;
     float: left;
     margin-bottom: 5px;
@@ -85,7 +99,6 @@ label{
 input{
     color: #fff;
     width: 100%;
-    font-size: 15px;
     padding: 10px;
 }
 
@@ -94,7 +107,7 @@ input::placeholder{
 }
 
 p{
-    font-size: 18px;
+    font-size: 21px;
 }
 
 textarea{
@@ -103,9 +116,7 @@ textarea{
     font-size: 15px;
 }
 
-.titulo-principal{
-    margin-top: 45px;
-}
+
 
 .slider__section h3{
     font-family: 'Krona One', sans-serif;

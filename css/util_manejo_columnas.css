@@ -1,12 +1,11 @@
 .contenedor{
-    position: relative;
     margin: auto;
-    width: 90%;
-    height: auto;
+    position: relative;
+    width: 85%;
+    height: 100vh;
 }
 
 .fila{
-    margin: auto;
     width: 100%;
     height: auto;
     align-items: center;
