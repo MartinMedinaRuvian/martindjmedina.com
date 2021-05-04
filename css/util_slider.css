@@ -11,7 +11,13 @@
 .slider{
     display: flex;
     width: 400%;
-    height: 400px;
+    height: 500px;
+}
+
+.slider__section h3{
+    font-family: 'Krona One', sans-serif;
+    color: #E08E79;
+    font-size: 30px;
 }
 
 .slider__section{
