@@ -81,7 +81,6 @@ body{
 form{
     position: relative;
     margin: auto;
-    width: 70%;
     height: auto;
 }
 
@@ -90,7 +89,7 @@ html{
 }
 
 label{
-    font-size: 21px;
+    font-size: 20px;
     margin-left: 5px;
     float: left;
     margin-bottom: 5px;
@@ -107,7 +106,7 @@ input::placeholder{
 }
 
 p{
-    font-size: 21px;
+    font-size: 20px;
 }
 
 textarea{
@@ -173,7 +172,4 @@ textarea{
         width: 100%;
     }
 
-    .form{
-        width: 95%;
-    }
 }
