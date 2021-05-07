@@ -1,7 +1,5 @@
-
 .container-slider{
     width: 100%;
-    max-width: 900px;
     margin: auto;
     overflow: hidden; 
     position: relative;
@@ -14,7 +12,6 @@
     height: 100%;
 }
 
-
 .slider__section{
     width: 100%;
 }
@@ -25,7 +22,6 @@
     height: 100%;
     object-fit: cover;
 }
-
 
 .slider__btn{
     position: absolute;

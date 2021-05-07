@@ -1,0 +1,326 @@
+@font-face {
+    font-family: 'krona';
+    src: url('../fonts/KronaOne-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+:root{
+    --color-rojo: #E08E79;
+    --color-claro: #ECE5CE;
+    --color-verde: #C5E0DC;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: var(--color-rojo);
+    text-decoration: none;
+    font-size: 11px;
+    background-color: transparent;
+    font-family: krona;
+    border: solid var(--color-rojo);
+    border-radius: 17px;
+    padding: 8px;
+}
+
+a:hover{
+    color: var(--color-verde);
+    cursor: pointer;
+}
+
+body{
+    color: var(--color-claro);
+    background-color: #000;
+    font-family: 'roboto';
+}
+
+
+.contenedor{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.foto{
+    width: 150px;
+}
+
+
+footer button{
+    margin-top: 10px;
+    color: var(--color-rojo);
+    font-size: 12px;
+    background-color: transparent;
+    font-family: krona;
+    border: solid var(--color-rojo);
+    border-radius: 17px;
+    padding: 8px;
+}
+
+footer button:hover{
+    color: var(--color-verde);
+    cursor: pointer;
+}
+
+footer input{
+    color: var(--color-claro);
+    font-size: 15px;
+    width: 100%;
+    background-color: transparent;
+    border: solid var(--color-claro);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+footer input::placeholder{
+    color: var(--color-claro);
+}
+
+footer h3{
+    color: var(--color-rojo);
+    font-family: krona;   
+    font-size: 15px;
+}
+
+footer .img-email{
+    width: 140px;
+    margin-bottom: 20px
+}
+
+footer label{
+    padding-left: 3px;
+    float: left;
+    margin-top: 13px;
+}
+
+footer textarea{
+    color: var(--color-claro);
+    width: 100%;
+    font-size: 20px;
+    width: 100%;
+    background-color: transparent;
+    border: solid var(--color-claro);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+footer span{
+    color: var(--color-rojo);
+}
+
+
+header p{
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header .mensaje{
+    color: var(--color-verde);
+    font-family: krona;
+    font-size: 10px;
+}
+
+header .titulo-principal{
+    font-size: 14px;
+    color: var(--color-rojo);
+    font-family: krona;
+}
+
+header .titulo-secundario{
+    font-size: 12px;
+    color: var(--color-verde);
+    font-family: krona;
+}
+
+.img-supermercado{
+    max-height: 390px;
+}
+
+.proyectos-principales a{
+    font-size: 11px;
+}
+
+
+.proyectos-principales h2{
+    color: var(--color-rojo);
+    font-family: krona;
+    font-size: 15px;
+}
+
+.proyectos-principales h3{
+    color: var(--color-verde);
+    font-family: krona;
+    font-size: 16px;
+}
+
+.proyectos-principales h4{
+    font-size: 19px;
+}
+
+
+
+/*PANTALLAS GRANDES - lg */
+@media(min-width:992px){
+    .contenedor{
+        width: 70%;
+    }
+
+    .proyectos-principales img{
+        max-width: 80%;
+    }
+
+
+    header .foto{
+        width: 290px;
+    }
+
+    footer .img-email{
+        width: 295px;
+    }
+
+    header .titulo-principal{
+        margin-top: 30px;
+        font-size: 28px;
+    }
+
+    header .titulo-secundario{
+        font-size: 22px;
+    }
+
+    header p{
+    font-size: 20px;
+    }
+
+    header a{
+        font-size: 15px;
+    }
+
+    header .mensaje{
+        font-size: 20px;
+    }
+
+    .proyectos-principales h2{
+        font-size: 23px;
+    }
+
+    .proyectos-principales h3{
+        font-size: 20px;
+    }
+
+    .proyectos-principales a{
+        font-size: 15px;
+    }
+
+    .proyectos-principales h4{
+        font-size: 23px;
+    }
+
+    footer h3{
+        font-size: 18px;
+    }
+ 
+    footer label{
+        font-size: 19px;
+    }
+ 
+    footer input{
+        font-size: 19px;
+    }
+ 
+    footer a{
+        font-size: 15px;
+    }
+ 
+    footer button{
+        font-size: 15px;
+    }
+
+    
+    
+}
+
+@media(max-width:991px) and (min-width: 768px){
+   .contenedor{
+       width: 70%;
+   }
+
+}
+
+
+/*PANTALLAS EXTRA PEQUEÑAS - xs */
+@media(max-width:767px) and (min-width: 330px){
+
+    .foto{
+        width: 180px;
+    }
+ 
+    header .titulo-principal{
+        font-size: 25px;
+    }
+ 
+    header .titulo-secundario{
+     font-size: 20px;
+    }
+ 
+    header .mensaje{
+     font-size: 15px;
+    }
+ 
+    header p{
+     font-size: 20px;
+    }
+
+    header a{
+        font-size: 15px;
+    }
+ 
+    .proyectos-principales a{
+        font-size: 14px;
+    }
+ 
+    .proyectos-principales h2{
+     font-size: 22px;
+   }
+ 
+    .proyectos-principales h3{
+     font-size: 19px;
+   }
+ 
+   .proyectos-principales h4{
+     font-size: 19px;
+   }
+
+   footer h3{
+       font-size: 18px;
+   }
+
+   footer label{
+       font-size: 19px;
+   }
+
+   footer input{
+       font-size: 19px;
+   }
+
+   footer a{
+       font-size: 15px;
+   }
+
+   footer button{
+       font-size: 15px;
+   }
+}
+
