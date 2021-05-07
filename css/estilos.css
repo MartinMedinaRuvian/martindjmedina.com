@@ -47,7 +47,7 @@ body{
     height: 100vh;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .foto{
@@ -93,6 +93,7 @@ footer h3{
 
 footer .img-email{
     width: 140px;
+    margin-top: 0px;
     margin-bottom: 20px
 }
 
@@ -116,7 +117,6 @@ footer textarea{
 footer span{
     color: var(--color-rojo);
 }
-
 
 header p{
     margin-top: 30px;
@@ -157,7 +157,7 @@ header .titulo-secundario{
 .proyectos-principales h2{
     color: var(--color-rojo);
     font-family: krona;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .proyectos-principales h3{
@@ -175,7 +175,7 @@ header .titulo-secundario{
 /*PANTALLAS GRANDES - lg */
 @media(min-width:992px){
     .contenedor{
-        width: 70%;
+        width: 70vw;
     }
 
     .proyectos-principales img{
@@ -188,6 +188,7 @@ header .titulo-secundario{
     }
 
     footer .img-email{
+        margin-top: 35px;
         width: 295px;
     }
 
@@ -213,7 +214,7 @@ header .titulo-secundario{
     }
 
     .proyectos-principales h2{
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .proyectos-principales h3{
@@ -254,7 +255,7 @@ header .titulo-secundario{
 
 @media(max-width:991px) and (min-width: 768px){
    .contenedor{
-       width: 70%;
+       width: 70vw;
    }
 
 }
@@ -292,7 +293,7 @@ header .titulo-secundario{
     }
  
     .proyectos-principales h2{
-     font-size: 22px;
+     font-size: 18px;
    }
  
     .proyectos-principales h3{
