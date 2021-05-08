@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'krona';
-    src: url('../fonts/KronaOne-Regular.ttf');
+    src: url('fonts/KronaOne-Regular.ttf');
     font-display: swap;
 }
 
 @font-face{
     font-family: 'roboto';
-    src: url('../fonts/Roboto-Medium.ttf');
+    src: url('fonts/Roboto-Medium.ttf');
     font-display: swap;
 }
 
