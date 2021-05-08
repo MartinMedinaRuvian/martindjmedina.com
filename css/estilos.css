@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'krona';
     src: url('../fonts/KronaOne-Regular.ttf');
+    font-display: swap;
 }
 
 @font-face{
     font-family: 'roboto';
     src: url('../fonts/Roboto-Medium.ttf');
+    font-display: swap;
 }
 
 :root{
@@ -49,6 +51,7 @@ body{
     align-items: center;
     width: 100vw;
 }
+
 
 .foto{
     width: 150px;
@@ -269,11 +272,11 @@ header .titulo-secundario{
     }
  
     header .titulo-principal{
-        font-size: 25px;
+        font-size: 20px;
     }
  
     header .titulo-secundario{
-     font-size: 20px;
+     font-size: 18px;
     }
  
     header .mensaje{

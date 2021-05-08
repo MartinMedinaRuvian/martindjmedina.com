@@ -17,7 +17,7 @@ Que todas las clases que tengan "col-" se le aplique float:left eso es para ahor
 */
 [class*="col-"]{
     float: left;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
