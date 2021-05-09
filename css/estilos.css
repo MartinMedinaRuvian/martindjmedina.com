@@ -44,6 +44,9 @@ body{
     font-family: 'roboto';
 }
 
+#btnsend{
+    visibility: hidden;
+}
 
 .contenedor{
     height: 100vh;
