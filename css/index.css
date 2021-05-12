@@ -1,3 +1,6 @@
+@import url('util_manejo_columnas.css');
+@import url('util_slider.css');
+
 @font-face {
     font-family: 'krona';
     src: url('fonts/KronaOne-Regular.ttf');
