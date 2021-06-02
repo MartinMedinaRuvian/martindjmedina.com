@@ -1,4 +1,3 @@
-@import url('util_manejo_columnas.css');
 @import url('util_slider.css');
 
 @font-face {
@@ -26,7 +25,7 @@
 }
 
 a{
-    color: var(--color-rojo);
+    color: var(--color-verde);
     text-decoration: none;
     font-size: 11px;
     background-color: transparent;
@@ -52,25 +51,53 @@ body{
 }
 
 .contenedor{
+    margin: auto;
     height: 100vh;
     display: flex;
-    align-items: center;
     width: 100vw;
 }
 
+
 .contenedor-redes-sociales{
     display: flex;
-    flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    margin: auto;
     padding: 20px;
+}
+
+
+.contenedor-general{
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
     flex-direction: column;
+    align-content: space-between;
+}
+
+.experimentos h3{
+    text-align: center;
+    font-family: krona;
+    color: var(--color-rojo);
+    font-size:  20px;
+    padding: 20px;
+}
+
+.proyectos-principales h2{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
 .contenedor-redes-sociales a{
     color: var(--color-verde);
+}
+
+.contenedor-redes-sociales img{
+    width: 35px;
+    height: 35px;
 }
 
 .contenedor-redes-sociales .texto{
@@ -83,6 +110,22 @@ body{
     width: 150px;
 }
 
+
+.quiensoy{
+  padding-top: 50px;
+}
+
+
+.experimentos .parte-uno h2{
+    font-family: krona;
+    color: var(--color-verde);
+}
+
+.experimentos .parte-uno h3{
+    padding: 0px;
+    font-size: 17px;
+    text-align: left;
+}
 
 
 footer button{
@@ -158,7 +201,7 @@ html{
 }
 
 header .mensaje{
-    color: var(--color-verde);
+    color: var(--color-rojo);
     font-family: krona;
     font-size: 10px;
 }
@@ -200,7 +243,59 @@ header .titulo-secundario{
     font-size: 19px;
 }
 
+.experimentos .contenedor-general{
+    margin-bottom: 50px;
+}
+
+.experimentos .contenedor-general img{
+    width: 320px;
+    height: 320px;
+}
+
+.experimentos .contenedor-general a{
+    font-size: 17px;
+}
+
+.experimentos .contenedor-general p{
+    font-size: 20px;
+}
+
+@media(min-width:1065px){
+
+
+    header .contenedor-general{
+        flex-direction: row;
+    }
+
+    header .contenedor-general .parte-uno{
+        flex: 60%;
+    }
+
+
+    header .contenedor-general .parte-dos{
+        text-align: right;
+        flex: 40%;
+    }
+
+    footer .contenedor-general{
+        flex-direction: row;
+    }
+    
+    footer .contenedor-general .parte-uno{
+        flex: 60%;
+        text-align: left;
+    }
+    
+    footer .contenedor-general .parte-dos{
+        text-align: right;
+        flex: 40%;
+    }
+   
+}
+
 @media(min-width:992px) and (max-width: 1114px){
+
+    
 
 .contenedor-redes-sociales .icono img{
 width: 30px;
@@ -212,15 +307,46 @@ height: 30px;
 }
 
  
- }
+}
+
 
 /*PANTALLAS GRANDES - lg */
-@media(min-width:992px){
-
-
-    .contenedor{
-        width: 70vw;
+@media(min-width:768px){
+    
+    .contenedor, .contenedor-general{
+        width: 80vw;
     }
+
+    footer .contenedor-general{
+     text-align: center;
+    }
+
+    .proyectos-principales .contenedor-general{
+        flex-direction: row;
+    }
+
+    .proyectos-principales .contenedor-general .parte-uno{
+        flex: 60%;
+    }
+
+    .proyectos-principales .contenedor-general .parte-dos{
+        flex: 40%;
+    }
+
+    .experimentos .contenedor-general{
+        flex-direction: row;
+    }
+
+    .experimentos .contenedor-general .parte-uno{
+        flex: 60%;
+        text-align: left;
+    }
+
+    .experimentos .contenedor-general .parte-dos{
+        text-align: right;
+        flex: 40%;
+    }
+
 
     .proyectos-principales img{
         max-width: 80%;
@@ -237,7 +363,6 @@ height: 30px;
     }
 
     header .titulo-principal{
-        margin-top: 30px;
         font-size: 28px;
     }
 
@@ -306,26 +431,14 @@ height: 30px;
     
 }
 
-@media(max-width:991px) and (min-width: 768px){
-   .contenedor{
-       width: 70vw;
-   }
-
-   .contenedor-redes-sociales{
-    flex-direction: column;
-}
-
-.contenedor-redes-sociales .texto{
-    margin-top: 10px;
-    margin-left: 0px;
-}
-
-
-}
 
 
 /*PANTALLAS EXTRA PEQUEÑAS - xs */
 @media(max-width:767px) and (min-width: 330px){
+
+    .experimentos .contenedor-general .parte-uno h3{
+        text-align: center;
+    }
 
 
     .contenedor-redes-sociales{
