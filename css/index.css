@@ -109,13 +109,12 @@ body{
     margin-top: 10px;
     width: 90%;
     height: 300px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 21.333px;
 }
 
 .padre .contenido h2{
     font-size: 17px;
-    color: var(--color-verde);
+    color: var(--color-claro);
     font-family: krona;
 }
 
@@ -127,7 +126,7 @@ body{
     text-align: center;
     font-family: krona;
     color: var(--color-rojo);
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 .contenedor-redes-sociales a{
@@ -135,8 +134,8 @@ body{
 }
 
 .contenedor-redes-sociales img{
-    width: 35px;
-    height: 35px;
+    width: 60px;
+    height: 60px;
 }
 
 .contenedor-redes-sociales .texto{
@@ -149,6 +148,9 @@ body{
     width: 150px;
 }
 
+footer h3{
+    text-align: center;
+}
 
 .quiensoy{
   padding-top: 50px;
