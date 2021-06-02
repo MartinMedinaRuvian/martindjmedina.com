@@ -50,6 +50,11 @@ body{
     visibility: hidden;
 }
 
+.btn-experimentos{
+    align-content: center;
+    text-align: center;
+}
+
 .contenedor{
     margin: auto;
     height: 100vh;
