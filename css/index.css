@@ -122,6 +122,10 @@ body{
     font-family: krona;
 }
 
+.padre .contenido a{
+    font-size: 17px;
+}
+
 #experimentos h3{
     text-align: center;
     font-family: krona;
