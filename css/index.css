@@ -74,7 +74,6 @@ body{
     margin: auto;
     padding: 10px;
     flex-direction: column;
-    align-content: space-between;
 }
 
 .experimentos h3{
@@ -90,6 +89,45 @@ body{
     margin-bottom: 50px;
 }
 
+.padre{
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.padre .contenido{
+    padding-bottom: 20px;
+    border-radius: 22.3333333px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.padre .contenido img{
+    margin-top: 10px;
+    width: 90%;
+    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.padre .contenido h2{
+    font-size: 19px;
+    color: var(--color-verde);
+    font-family: krona;
+}
+
+#experimentos h3{
+    text-align: center;
+    font-family: krona;
+    color: var(--color-rojo);
+    margin-bottom: 50px;
+}
 
 .contenedor-redes-sociales a{
     color: var(--color-verde);
@@ -115,17 +153,6 @@ body{
   padding-top: 50px;
 }
 
-
-.experimentos .parte-uno h2{
-    font-family: krona;
-    color: var(--color-verde);
-}
-
-.experimentos .parte-uno h3{
-    padding: 0px;
-    font-size: 17px;
-    text-align: left;
-}
 
 
 footer button{
@@ -243,11 +270,8 @@ header .titulo-secundario{
     font-size: 19px;
 }
 
-.experimentos .contenedor-general{
-    margin-bottom: 50px;
-}
-
 .experimentos .contenedor-general img{
+    border-radius: 2em;
     width: 320px;
     height: 320px;
 }
@@ -258,6 +282,12 @@ header .titulo-secundario{
 
 .experimentos .contenedor-general p{
     font-size: 20px;
+}
+
+.experimentos .contenedor-general{
+    margin-bottom: 50px;
+    border: solid red;
+    align-content: flex-end;
 }
 
 @media(min-width:1065px){
@@ -312,6 +342,19 @@ height: 30px;
 
 /*PANTALLAS GRANDES - lg */
 @media(min-width:768px){
+
+    .padre{
+        justify-content: space-between;
+    }
+
+    .padre .contenido{
+        width: 40%;
+        padding: 20px;
+    }
+
+    .padre{
+        width: 80vw;
+    }
     
     .contenedor, .contenedor-general{
         width: 80vw;
@@ -335,16 +378,6 @@ height: 30px;
 
     .experimentos .contenedor-general{
         flex-direction: row;
-    }
-
-    .experimentos .contenedor-general .parte-uno{
-        flex: 60%;
-        text-align: left;
-    }
-
-    .experimentos .contenedor-general .parte-dos{
-        text-align: right;
-        flex: 40%;
     }
 
 
