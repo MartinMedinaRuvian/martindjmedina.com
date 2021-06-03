@@ -83,7 +83,39 @@ body{
 
 .proyectos-principales h2{
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+}
+
+.skills{
+    margin-top: 70px;
+}
+
+.padre-skills{
+    text-align: center;
+    width: 100vw;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.padre-skills .contenido-skills{
+    width: 50%;
+    padding: 15px;
+}
+
+.padre-skills .contenido-skills img{
+    width: 90%;
+    height: 70px;
+}
+
+.skills h2{
+    text-align: center;
+    font-family: krona;
+    color: var(--color-rojo);
+    margin-bottom: 25px;
 }
 
 .padre{
@@ -112,21 +144,20 @@ body{
     border-radius: 21.333px;
 }
 
-.padre .contenido h2{
-    font-size: 17px;
+.padre .contenido h3{
+    font-size: 22px;
     color: var(--color-claro);
-    font-family: krona;
 }
 
 .padre .contenido a{
     font-size: 17px;
 }
 
-#experimentos h3{
+#experimentos h2{
     text-align: center;
     font-family: krona;
     color: var(--color-rojo);
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .contenedor-redes-sociales a{
@@ -260,7 +291,7 @@ header .titulo-secundario{
 .proyectos-principales h2{
     color: var(--color-rojo);
     font-family: krona;
-    font-size: 13px;
+    font-size: 20px;
 }
 
 .proyectos-principales h3{
@@ -336,6 +367,16 @@ height: 30px;
         padding: 20px;
     }
 
+    .padre-skills{
+        width: 80vw;
+        justify-content: space-around;
+    }
+
+    .padre-skills .contenido-skills{
+        width: 20%;
+    }
+
+
     .padre{
         width: 80vw;
     }
@@ -397,7 +438,7 @@ height: 30px;
     }
 
     .proyectos-principales h2{
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .proyectos-principales h3{
