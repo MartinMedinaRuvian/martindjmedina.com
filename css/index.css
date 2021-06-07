@@ -181,7 +181,6 @@ body {
 
 .footer h1{
     text-align: center;
-    margin-bottom: 30px;
 }
 
 .footer .contenedor-general{
@@ -196,7 +195,6 @@ body {
 .footer .contenedor-general h2{
     color: var(--color-verde);
     font-size: 25px;
-    margin-bottom: 10px;
 }
 
 .footer .contenedor-general .skill{
@@ -219,7 +217,7 @@ body {
  
     .header{
         padding-right: 0;
-        padding-left: 30px;
+        padding-left: 32px;
         display: flex;
         margin: auto;
         height: 100vh;
@@ -247,27 +245,6 @@ body {
         flex: 50%;
     }
 
-    .experimentos{
-        margin-top: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
-    .skills{
-        margin-top: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
-    .footer{
-        margin-top: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-    }
-
     .proyectos-principales{
         margin-top: 200px;
         margin-left: auto;
@@ -275,7 +252,7 @@ body {
         width: 80%;
     }
 
-    .proyectos-principales .contenedor-general, .experimentos .contenedor-general, .skills .contenedor-general, .footer .contenedor-general{
+    .proyectos-principales .contenedor-general{
         flex-direction: row;
         justify-content: space-between;
     }
@@ -286,7 +263,19 @@ body {
         height: 550px;
         margin: 25px;
         border-radius: 30px;
-        border: solid var(--color-verde);
+        border: 1px solid var(--color-verde);
+    }
+
+    .experimentos{
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .experimentos .contenedor-general{
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .experimentos .contenedor-general .experimento{
@@ -294,12 +283,26 @@ body {
         padding: 10px;
         margin: 25px;
         border-radius: 30px;
-        border: solid var(--color-verde);
+        border: 1px solid var(--color-verde);
+    }
+
+    .skills{
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 
     .skills .contenedor-general .skill{
         flex: 20%;
         padding: 30px;
+    }
+
+    .footer{
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 
     .footer .contenedor-general{
