@@ -1,10 +1,4 @@
 @font-face {
-    font-family: 'krona';
-    src: url('fonts/KronaOne-Regular.ttf');
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'poppin';
     src: url('fonts/Poppins-Medium.ttf');
     font-display: swap;
@@ -41,7 +35,6 @@ a:hover {
 h1 {
     font-size: 30px;
     color: var(--color-rojo);
-    font-family: krona;
 }
 
 body {
@@ -56,10 +49,10 @@ body {
 }
 
 .header .contenedor-general {
+    align-items: center;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
-    align-items: center;
     margin: auto;
     flex-direction: column;
 }
@@ -70,7 +63,7 @@ body {
 }
 
 .header .contenedor-general p {
-    margin-top: 35px;
+    margin-top: 20px;
     font-size: 25px;
 }
 
@@ -141,7 +134,7 @@ body {
 
 .experimentos .contenedor-general .experimento{
     margin-bottom: 100px;
-    height: 515px;
+    height: 490px;
 }
 
 
@@ -156,11 +149,11 @@ body {
 }
 
 .skills .contenedor-general{
+    margin-top: 55px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    margin: auto;
     flex-direction: row;
 }
 
@@ -234,7 +227,19 @@ body {
         justify-content: space-between;
     }
 
-    .header .contenedor-general .contenido{
+    .header .contenedor-general img{
+        margin-top: 0px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .header .contenedor-general .parte-uno{
+        text-align: left;
+        flex: 50%;
+    }
+
+    .header .contenedor-general .parte-dos{
+        text-align: right;
         flex: 50%;
     }
 
@@ -250,10 +255,6 @@ body {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
-    }
-
-    .skills .contenedor-general{
-        margin-top: 55px;
     }
 
     .footer{
@@ -277,17 +278,17 @@ body {
 
     .proyectos-principales .contenedor-general .proyecto{
         flex: 40%;
-        padding: 30px;
-        height: 590px;
-        margin: 10px;
+        padding: 10px;
+        height: 550px;
+        margin: 25px;
         border-radius: 30px;
         border: solid var(--color-verde);
     }
 
     .experimentos .contenedor-general .experimento{
         flex: 40%;
-        padding: 30px;
-        margin: 10px;
+        padding: 10px;
+        margin: 25px;
         border-radius: 30px;
         border: solid var(--color-verde);
     }
