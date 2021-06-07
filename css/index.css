@@ -21,7 +21,6 @@ a {
     text-decoration: none;
     font-size: 22px;
     background-color: transparent;
-    font-family: poppin;
     border: solid var(--color-rojo);
     border-radius: 17px;
     padding: 8px;
@@ -260,7 +259,7 @@ body {
     .proyectos-principales .contenedor-general .proyecto{
         flex: 40%;
         padding: 10px;
-        height: 550px;
+        height: 540px;
         margin: 25px;
         border-radius: 30px;
         border: 1px solid var(--color-verde);
