@@ -1,17 +1,9 @@
-@import url('util_manejo_columnas.css');
-@import url('util_slider.css');
-
 @font-face {
-    font-family: 'krona';
-    src: url('fonts/KronaOne-Regular.ttf');
+    font-family: 'poppin';
+    src: url('fonts/Poppins-Medium.ttf');
     font-display: swap;
 }
 
-@font-face{
-    font-family: 'roboto';
-    src: url('fonts/Roboto-Medium.ttf');
-    font-display: swap;
-}
 
 :root{
     --color-rojo: #E08E79;
@@ -30,7 +22,6 @@ a{
     text-decoration: none;
     font-size: 11px;
     background-color: transparent;
-    font-family: krona;
     border: solid var(--color-rojo);
     border-radius: 17px;
     padding: 8px;
@@ -45,7 +36,7 @@ a{
 
 body{
     background-color: #000;
-    font-family: roboto;
+    font-family: poppin;
     color: var(--color-claro);
 }
 
@@ -53,13 +44,11 @@ body{
 header .titulo-principal{
     font-size: 14px;
     color: var(--color-rojo);
-    font-family: krona;
 }
 
 header .titulo-secundario{
     font-size: 12px;
     color: var(--color-verde);
-    font-family: krona;
 }
 
 header p{
