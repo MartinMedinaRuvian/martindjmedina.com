@@ -37,6 +37,7 @@ h1 {
     color: var(--color-rojo);
 }
 
+
 body {
     color: var(--color-claro);
     background-color: #000;
@@ -212,7 +213,7 @@ body {
 }
 
 
-@media(min-width:801px) {
+@media(min-width:817px) {
 
  
     .header{
@@ -237,12 +238,12 @@ body {
 
     .header .contenedor-general .parte-uno{
         text-align: left;
-        flex: 50%;
+        flex: 51%;
     }
 
     .header .contenedor-general .parte-dos{
         text-align: right;
-        flex: 50%;
+        flex: 49%;
     }
 
     .proyectos-principales{
@@ -280,7 +281,7 @@ body {
 
     .experimentos .contenedor-general .experimento{
         flex: 20%;
-        height: 400px;
+        height: 480px;
         padding: 10px;
         margin: 25px;
         border-radius: 30px;
