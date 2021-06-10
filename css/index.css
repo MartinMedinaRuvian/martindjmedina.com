@@ -107,6 +107,10 @@ body {
 }
 
 .proyectos-principales .contenedor-general .proyecto{
+    border: 1px solid var(--color-verde);
+    padding: 10px;
+    width: 95%;
+    border-radius: 16px;
     margin-bottom: 100px;
 }
 
@@ -138,6 +142,10 @@ body {
 .experimentos .contenedor-general .experimento{
     margin-bottom: 100px;
     height: 490px;
+    border: 1px solid var(--color-verde);
+    padding: 10px;
+    width: 95%;
+    border-radius: 16px;
 }
 
 
@@ -182,6 +190,7 @@ body {
 
 .footer h1{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .footer .contenedor-general{
@@ -203,15 +212,16 @@ body {
 }
 
 
-
-.footer .contenedor-general .icono{
-    margin-top: 50px;
+.footer .red-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.footer .contenedor-general .texto{
-    margin-top: 10px;
+.footer .red-social .texto{
+    margin-left: 10px;
 }
-
 
 @media(min-width:817px) {
 
@@ -260,6 +270,7 @@ body {
 
     .proyectos-principales .contenedor-general .proyecto{
         flex: 20%;
+        max-width: 300px;
         padding: 10px;
         height: 445px;
         margin: 25px;
@@ -281,6 +292,7 @@ body {
 
     .experimentos .contenedor-general .experimento{
         flex: 20%;
+        max-width: 300px;
         height: 480px;
         padding: 10px;
         margin: 25px;
@@ -311,17 +323,17 @@ body {
         display: flex;
         align-items: center;
         margin: auto;
-        align-content: center;
+        align-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
     .footer .contenedor-general .red-social{
-        padding: 50px;
+        padding: 15px;
         display: flex;
         align-items: center;
         margin: auto;
-        align-content: center;
+        align-content: space-between;
         flex-direction: row;
     }
 
@@ -329,9 +341,5 @@ body {
         margin-top: 0;
     }
 
-    .footer .contenedor-general .red-social .texto{
-        margin-top: 0;
-        margin-left: 10px;
-    }
 
 }
