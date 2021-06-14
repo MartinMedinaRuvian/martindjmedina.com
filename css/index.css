@@ -148,6 +148,12 @@ body {
     border-radius: 16px;
 }
 
+.experimentos .contenedor-general .experimento .img-proyecto{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
 
 .skills{
     width: 100%;
@@ -291,7 +297,7 @@ body {
     }
 
     .experimentos .contenedor-general .experimento{
-        flex: 20%;
+        flex: 30%;
         max-width: 300px;
         height: 480px;
         padding: 10px;
