@@ -107,7 +107,7 @@ body {
 }
 
 .proyectos-principales .contenedor-general .proyecto{
-    border: 1px solid var(--color-verde);
+    border: 0.3px solid var(--color-verde);
     padding: 10px;
     width: 95%;
     border-radius: 16px;
@@ -142,7 +142,7 @@ body {
 .experimentos .contenedor-general .experimento{
     margin-bottom: 100px;
     height: 490px;
-    border: 0.5px solid var(--color-verde);
+    border: 0.3px solid var(--color-verde);
     width: 95%;
     border-radius: 16px;
 }
@@ -280,7 +280,6 @@ body {
         height: 445px;
         margin: 25px;
         border-radius: 30px;
-        border: 1px solid var(--color-verde);
     }
 
     .experimentos{
@@ -301,7 +300,6 @@ body {
         height: 480px;
         margin: 25px;
         border-radius: 30px;
-        border: 0.5px solid var(--color-verde);
     }
 
     .experimentos .contenedor-general .experimento .img-proyecto{
