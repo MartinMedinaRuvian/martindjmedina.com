@@ -175,13 +175,13 @@ body {
 }
 
 .experiencias .contenedor-general .experiencia .img-gnosoft {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 
 .experimentos{
     width: 100%;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .experimentos h1{
