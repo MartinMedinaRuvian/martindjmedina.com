@@ -108,6 +108,11 @@ body {
 
 .proyectos-principales .contenedor-general h3{
     font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.proyectos-principales .contenedor-general img{
+    margin-bottom: 10px;
 }
 
 .proyectos-principales .contenedor-general .proyecto{
@@ -255,7 +260,6 @@ body {
         height: 300px;
         border-radius: 50%;
         border: 2px solid var(--color-verde);
-        border-top: transparent;
     }
 
     .header .contenedor-general .parte-uno{
