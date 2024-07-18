@@ -125,6 +125,55 @@ body {
     margin-bottom: 100px;
 }
 
+.experiencias{
+    width: 100%;
+    margin-top: 200px;
+}
+
+.experiencias h1{
+    text-align: center;
+}
+
+.experiencias .contenedor-general{  
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+.experiencias .contenedor-general h2{
+    font-size: 15px;
+    color: var(--color-verde);
+    margin-bottom: -10px;
+}
+
+.experiencias .contenedor-general p{
+    margin-bottom: 25px;
+}
+
+
+.experiencias .contenedor-general .experiencia{
+    height: 380px !important;
+    max-width: 400px !important;
+}
+
+.experiencias .contenedor-general .experiencia .img-experiencia{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.experiencias .contenedor-general .experiencia .img-cobis_topaz {
+    margin-bottom: -70px;
+}
+
+.experiencias .contenedor-general .experiencia .img-gnosoft {
+    width: 150px;
+    height: 150px;
+}
+
 .experimentos{
     width: 100%;
     margin-top: 100px;
@@ -132,7 +181,7 @@ body {
 
 .experimentos h1{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 .experimentos .contenedor-general{
@@ -151,14 +200,12 @@ body {
 }
 
 .experimentos .contenedor-general .experimento{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
     height: 420px !important;
     width: 95%;
-    border-radius: 16px;
 }
 
 .experimentos .contenedor-general .experimento .img-proyecto{
-    margin-top: 25px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
