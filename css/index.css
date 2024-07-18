@@ -16,6 +16,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #616161 !important;
+}
+
 a {
     color: var(--color-verde);
     text-decoration: none;
@@ -60,7 +64,7 @@ body {
 }
 
 .header .contenedor-general h2 {
-    font-size: 22px;
+    font-size: 20px;
     color: var(--color-verde);
 }
 
@@ -249,6 +253,7 @@ body {
         margin-top: 0px;
         width: 300px;
         height: 300px;
+        border-radius: 50%;
     }
 
     .header .contenedor-general .parte-uno{
