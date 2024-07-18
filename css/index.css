@@ -138,23 +138,23 @@ body {
 }
 
 .experimentos .contenedor-general h2{
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 15px;
     margin-bottom: 10px;
 }
 
 .experimentos .contenedor-general .experimento{
     margin-bottom: 100px;
-    height: 490px;
+    height: 420px !important;
     border: 0.3px solid var(--color-verde);
+    border-top: transparent;
     width: 95%;
     border-radius: 16px;
 }
 
 .experimentos .contenedor-general .experimento .img-proyecto{
     width: 100%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-radius: 50%;
 }
 
 
@@ -254,6 +254,8 @@ body {
         width: 300px;
         height: 300px;
         border-radius: 50%;
+        border: 2px solid var(--color-verde);
+        border-top: transparent;
     }
 
     .header .contenedor-general .parte-uno{
