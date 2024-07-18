@@ -154,13 +154,15 @@ body {
     margin-bottom: 100px;
     height: 420px !important;
     border: 0.3px solid var(--color-verde);
-    border-top: transparent;
     width: 95%;
     border-radius: 16px;
 }
 
 .experimentos .contenedor-general .experimento .img-proyecto{
-    width: 100%;
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
 
@@ -310,11 +312,6 @@ body {
         height: 480px;
         margin: 25px;
         border-radius: 30px;
-    }
-
-    .experimentos .contenedor-general .experimento .img-proyecto{
-        border-top-left-radius: 24px;
-        border-top-right-radius: 24px;
     }
 
 
