@@ -73,6 +73,10 @@ body {
     font-size: 20px;
 }
 
+.header .contenedor-general a {
+    margin-right: 10px;
+}
+
 .header .contenedor-general img {
     margin-top: 50px;
     border-radius: 50%;
@@ -157,6 +161,7 @@ body {
 .experiencias .contenedor-general .experiencia{
     height: 380px !important;
     max-width: 400px !important;
+    margin-bottom: -15px;
 }
 
 .experiencias .contenedor-general .experiencia .img-experiencia{
@@ -176,7 +181,7 @@ body {
 
 .experimentos{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .experimentos h1{
