@@ -75,6 +75,8 @@ body {
 
 .header .contenedor-general img {
     margin-top: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--color-verde);
 }
 
 .header .contenedor-general .mensaje{
@@ -159,7 +161,6 @@ body {
 
 .experimentos .contenedor-general .experimento .img-proyecto{
     width: 100%;
-    border-radius: 50%;
 }
 
 
@@ -258,8 +259,6 @@ body {
         margin-top: 0px;
         width: 300px;
         height: 300px;
-        border-radius: 50%;
-        border: 2px solid var(--color-verde);
     }
 
     .header .contenedor-general .parte-uno{
@@ -317,6 +316,7 @@ body {
         border-top-left-radius: 24px;
         border-top-right-radius: 24px;
     }
+
 
     .skills{
         margin-top: 200px;
