@@ -18,6 +18,7 @@
 
 body {
     background-color: #616161 !important;
+    letter-spacing: 1.2px;
 }
 
 a {
@@ -340,7 +341,7 @@ body {
         flex: 20%;
         max-width: 300px;
         padding: 10px;
-        height: 445px;
+        height: 470px;
         margin: 25px;
         border-radius: 30px;
     }
