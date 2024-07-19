@@ -50,7 +50,7 @@ body {
 }
 
 .header {
-    padding: 5px;
+    padding: 20px;
     margin-top: 50px;
     width: 100%;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .proyectos-principales{
-    padding: 5px;
+    padding: 20px;
     width: 100%;
     margin-top: 150px;
 }
@@ -131,7 +131,7 @@ body {
 }
 
 .experiencias{
-    padding: 5px;
+    padding: 20px;
     width: 100%;
     margin-top: 200px;
 }
