@@ -213,6 +213,7 @@ h1 {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    border: solid var(--color-verde) 3.5px;
 }
 
 
