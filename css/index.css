@@ -160,7 +160,7 @@ h1 {
 .experiencias .contenedor-general .experiencia{
     height: 380px !important;
     max-width: 400px !important;
-    margin-bottom: -15px;
+    margin-bottom: 40px;
 }
 
 .experiencias .contenedor-general .experiencia .img-experiencia{
