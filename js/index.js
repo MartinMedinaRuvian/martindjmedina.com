@@ -1,43 +1,47 @@
+function fechaActual() {
+    let date = new Date()
+
+    let day = date.getDate()
+    let month = date.getMonth() + 1
+    let year = date.getFullYear()
+
+    const dia = day < 10 ? '0' + day : day
+    const mes = month < 10 ? '0' + month : month
+
+    return year + '-' + mes + '-' + dia
+}
+
 function calcularDiferenciaFechas(fechaInicio, fechaFin) {
-  let inicio = new Date(fechaInicio);
+    let inicio = new Date(fechaInicio);
 
-  if(fechaFin === null){
-    fechaFin = new Date()
-  }
-  let fin = new Date(fechaFin);
+    if (fechaFin === null) {
+        fechaFin = fechaActual()
+    }
 
-  let años = fin.getFullYear() - inicio.getFullYear();
-  let meses = fin.getMonth() - inicio.getMonth();
+    let fin = new Date(fechaFin);
 
-  if (meses < 0) {
-      años--;
-      meses += 12;
-  }
+    console.log('Inicio: ' + inicio, 'Fin: ' + fin);
 
-  if (fin.getDate() < inicio.getDate()) {
-      meses--;
-      if (meses < 0) {
-          años--;
-          meses += 12;
-      }
-  }
+    let años = fin.getFullYear() - inicio.getFullYear();
+    let meses = fin.getMonth() - inicio.getMonth();
 
-  let resultado = `${años} ${años === 1 ? "año" : "años"} y ${meses} ${meses === 1 ? "mes" : "meses"}`;
+    if (meses < 0) {
+        años--;
+        meses += 12;
+    }
 
-  return resultado
+    if (fin.getDate() < inicio.getDate()) {
+        meses--;
+        if (meses < 0) {
+            años--;
+            meses += 12;
+        }
+    }
+
+    let resultado = `${años} ${años === 1 ? "año" : "años"} y ${meses} ${meses === 1 ? "mes" : "meses"}`;
+
+    return resultado
 }
 
-function tiempoTopaz(){
-    const fechaInicio = '2023-02-01'
-    const fechaFin = null
-    document.getElementById('tiempo_topaz').innerText = calcularDiferenciaFechas(fechaInicio, fechaFin)
-}
-
-function tiempoGnosoft(){
-    const fechaInicio = '2021-08-01'
-    const fechaFin = '2023-02-01'
-    document.getElementById('tiempo_gnosoft').innerText = calcularDiferenciaFechas(fechaInicio, fechaFin)
-}
-
-tiempoGnosoft()
-tiempoTopaz()
+document.getElementById('tiempo_topaz').innerText = calcularDiferenciaFechas('2023-02-01', null)
+document.getElementById('tiempo_gnosoft').innerText = calcularDiferenciaFechas('2021-08-01', '2023-02-01')
