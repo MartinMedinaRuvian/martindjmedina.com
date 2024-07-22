@@ -20,8 +20,6 @@ function calcularDiferenciaFechas(fechaInicio, fechaFin) {
 
     let fin = new Date(fechaFin);
 
-    console.log('Inicio: ' + inicio, 'Fin: ' + fin);
-
     let años = fin.getFullYear() - inicio.getFullYear();
     let meses = fin.getMonth() - inicio.getMonth();
 
