@@ -159,6 +159,9 @@ h1 {
     font-size: 17px;
 }
 
+.experiencias .contenedor-general h2 span{
+    color: var(--color-rojo);
+}
 
 .experiencias .contenedor-general .experiencia{
     height: 380px !important;
