@@ -66,12 +66,17 @@ h1 {
 }
 
 .header .contenedor-general p {
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 20px;
 }
 
 .header .contenedor-general a {
     margin-right: 10px;
+}
+
+.header .contenedor-general .titulo_experiencia{
+    font-size: 18px;
+    margin-top: -10px;
 }
 
 .header .contenedor-general img {
