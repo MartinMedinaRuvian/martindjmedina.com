@@ -60,9 +60,11 @@ h1 {
     flex-direction: column;
 }
 
+
 .header .contenedor-general h2 {
     font-size: 20px;
     color: var(--color-verde);
+    font-weight: 600;
 }
 
 .header .contenedor-general p {
@@ -70,14 +72,27 @@ h1 {
     font-size: 20px;
 }
 
-.header .contenedor-general a {
-    margin-right: 10px;
-}
-
 .header .contenedor-general .titulo_experiencia{
     font-size: 18px;
-    margin-top: -10px;
+    margin-top: 5px;
     color: var(--color-verde);
+    margin-bottom: -25px;
+}
+
+.header .contenedor-general a {
+    margin-right: 5px;
+}
+
+.header .contenedor-general .contenedor-botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .contenedor-general .contenedor-botones a{
+    margin-right: 15px;
+    margin-top: 10px;
 }
 
 .header .contenedor-general img {
@@ -304,7 +319,7 @@ h1 {
     margin-left: 10px;
 }
 
-@media(min-width:817px) {
+@media(min-width:895px) {
 
  
     .header{
@@ -330,6 +345,12 @@ h1 {
     .header .contenedor-general .parte-uno{
         text-align: left;
         flex: 51%;
+    }
+
+    .header .contenedor-general .contenedor-botones{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .header .contenedor-general .parte-dos{
