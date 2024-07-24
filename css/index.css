@@ -16,6 +16,14 @@
     box-sizing: border-box;
 }
 
+.color-verde{
+    color: var(--color-verde) !important;
+}
+
+.color-rojo{
+    color: var(--color-rojo) !important;
+}
+
 body {
     background-color: #212121;
     color: var(--color-claro);
@@ -235,15 +243,18 @@ h1 {
 
 .experimentos .contenedor-general .experimento{
     margin-bottom: 50px;
-    height: 350px !important;
-    width: 95%;
+    height: 500px !important;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0.3px solid var(--color-verde);
 }
 
 .experimentos .contenedor-general .experimento .img-proyecto{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    border: solid var(--color-verde) 2px;
     padding: 3px;
 }
 
