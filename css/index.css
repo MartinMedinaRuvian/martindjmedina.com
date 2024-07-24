@@ -242,6 +242,7 @@ h1 {
 }
 
 .experimentos .contenedor-general .experimento{
+    padding: 25px;
     margin-bottom: 50px;
     height: 470px !important;
 }
