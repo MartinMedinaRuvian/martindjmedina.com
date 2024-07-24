@@ -244,14 +244,10 @@ h1 {
 .experimentos .contenedor-general .experimento{
     margin-bottom: 50px;
     height: 470px !important;
-    width: 100%;
-    padding-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border: 0.3px solid var(--color-verde);
 }
 
 .experimentos .contenedor-general .experimento .img-proyecto{
+    border: 2px solid var(--color-verde);
     width: 200px;
     height: 200px;
     border-radius: 50%;
