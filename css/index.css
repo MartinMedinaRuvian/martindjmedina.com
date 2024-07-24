@@ -80,7 +80,7 @@ h1 {
 }
 
 .header .contenedor-general a {
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .header .contenedor-general .contenedor-botones{
@@ -91,8 +91,11 @@ h1 {
 }
 
 .header .contenedor-general .contenedor-botones a{
-    margin-right: 15px;
     margin-top: 10px;
+}
+
+.header .contenedor-general .contenedor-botones span{
+    margin-right: 7px;
 }
 
 .header .contenedor-general img {
