@@ -43,3 +43,27 @@ function calcularDiferenciaFechas(fechaInicio, fechaFin) {
 
 document.getElementById('tiempo_topaz').innerText = calcularDiferenciaFechas('2023-02-01', null)
 document.getElementById('tiempo_gnosoft').innerText = calcularDiferenciaFechas('2021-08-01', '2023-02-01')
+
+document.addEventListener('DOMContentLoaded', function () {
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("modalImage");
+    const images = document.querySelectorAll('.experimento .img-proyecto');
+    const span = document.getElementsByClassName("close-modal-button")[0];
+
+    images.forEach(image => {
+        image.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+        }
+    });
+
+    span.onclick = function() { 
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+});
