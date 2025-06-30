@@ -273,8 +273,9 @@ h1 {
 .modal-content-image {
     margin: auto;
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 80%;
+    max-width: 700px;
+    height: auto;
 }
 
 
@@ -293,6 +294,12 @@ h1 {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
+}
+
+@media (max-width: 700px) {
+    .modal-content-image {
+        width: 90%;
+    }
 }
 
 
