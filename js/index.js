@@ -41,6 +41,7 @@ function calcularDiferenciaFechas(fechaInicio, fechaFin) {
     return resultado
 }
 
+document.getElementById('tiempo_experiencia').innerText = calcularDiferenciaFechas('2018-01-01', null)
 document.getElementById('tiempo_topaz').innerText = calcularDiferenciaFechas('2023-02-01', null)
 document.getElementById('tiempo_gnosoft').innerText = calcularDiferenciaFechas('2021-08-01', '2023-02-01')
 
